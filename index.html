@@ -5,9 +5,9 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Your page title here :)</title>
+  <title>2014 Memorial</title>
   <meta name="description" content="">
-  <meta name="author" content="">
+  <meta name="author" content="Right of way">
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -21,6 +21,7 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
   <link rel="stylesheet" href="css/style.css">
 
   <!-- Favicon
@@ -52,7 +53,7 @@
           <h3><b>20</b> Cyclists</h3>
           <h3><b>95</b> people in cars</h3>
           <h3><b>10</b> unknown</h3>
-          <h5>Right of Way moralizes them with a large public art installation</h5>
+          <h5>Right of Way remembers them with a large public art installation</h5>
         </div>
         <div class="two-thirds column">
           <h3 id="icons" class="icon-style"></h3>
@@ -61,51 +62,92 @@
     </div>
   </div>
 
+  <div class="section photo-strip">
+    <div class="container">
+      <div class="row">
+        <div class="four columns">
+          <img class="u-max-full-width" src="images/sample_photo.jpg"></img>
+        </div>
+        <div class="four columns">
+          <img class="u-max-full-width" src="images/sample_photo.jpg"></img>
+        </div>
+        <div class="four columns">
+          <img class="u-max-full-width" src="images/sample_photo.jpg"></img>
+        </div>
+      </div>
+      <div class ="row main-text">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur. Donec ut libero sed arcu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id dolor. Pellentesque auctor nisi id magna consequat sagittis. Curabitur dapibus enim sit amet elit pharetra tincidunt feugiat nisl imperdiet. Ut convallis libero in urna ultrices accumsan. Donec sed odio eros. Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est.
+        </p>
+
+        <p>
+        Vivamus fermentum semper porta. Nunc diam velit, adipiscing ut tristique vitae, sagittis vel odio. Maecenas convallis ullamcorper ultricies. Curabitur ornare, ligula semper consectetur sagittis, nisi diam iaculis velit, id fringilla sem nunc vel mi. Nam dictum, odio nec pretium volutpat, arcu ante placerat erat, non tristique elit urna et turpis. Quisque mi metus, ornare sit amet fermentum et, tincidunt et orci. Fusce eget orci a orci congue vestibulum. Ut dolor diam, elementum et vestibulum eu, porttitor vel elit. Curabitur venenatis pulvinar tellus gravida ornare. Sed et erat faucibus nunc euismod ultricies ut id justo. Nullam cursus suscipit nisi, et ultrices justo sodales nec. Fusce venenatis facilisis lectus ac semper. Aliquam at massa ipsum. Quisque bibendum purus convallis nulla ultrices ultricies. Nullam aliquam, mi eu aliquam tincidunt, purus velit laoreet tortor, viverra pretium nisi quam vitae mi. Fusce vel volutpat elit. Nam sagittis nisi dui.
+      </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section photos">
+    <div class="container">
+      <div class="row">
+        <div class="three columns">
+          <img class="u-max-full-width" src="images/sample_photo.jpg"></img>
+        </div>
+        <div class="three columns">
+          <img class="u-max-full-width" src="images/sample_photo.jpg"></img>
+        </div>
+        <div class="three columns">
+          <img class="u-max-full-width" src="images/sample_photo.jpg"></img>
+        </div>
+        <div class="three columns">
+          <img class="u-max-full-width" src="images/sample_photo.jpg"></img>
+        </div>
+      </div>
+      <div class="row">
+        <div class="three columns">
+          <img class="u-max-full-width" src="images/sample_photo.jpg"></img>
+        </div>
+        <div class="three columns">
+          <img class="u-max-full-width" src="images/sample_photo.jpg"></img>
+        </div>
+        <div class="three columns">
+          <img class="u-max-full-width" src="images/sample_photo.jpg"></img>
+        </div>
+        <div class="three columns">
+          <img class="u-max-full-width" src="images/sample_photo.jpg"></img>
+        </div>
+      </div>
+      <div class="row">
+        <div class="three columns">
+          <img class="u-max-full-width" src="images/sample_photo.jpg"></img>
+        </div>
+        <div class="three columns">
+          <img class="u-max-full-width" src="images/sample_photo.jpg"></img>
+        </div>
+        <div class="three columns">
+          <img class="u-max-full-width" src="images/sample_photo.jpg"></img>
+        </div>
+        <div class="three columns">
+          <img class="u-max-full-width" src="images/sample_photo.jpg"></img>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section the-map">
+    <div class="container">
+      <h3><center>Map of those killed in 2014</center></h3>
+      <div id="map"></div>
+    </div>
+  </div>
+
+ 
 
 
-  
-<script>
-  document.getElementById('icons').innerHTML = many_people() + many_bikes() + many_cars();
+<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+<script src="js/deaths.js"></script>
+<script src="js/main.js"></script>
 
-  function many_bikes() {
-    var bikes = ''
-    var bike = '&#128690'
-    for (var i = 0; i < 20; i++) {
-      bikes += (bike + " ");
-    }
-    return bikes; 
-  }
 
-  // people include the unknowns
-  function many_people() {
-    var people = ''
-    var person = '&#128694'
-    for (var i = 0; i < 154; i++) {
-      people += (person + " ");
-    }
-    return people; 
-  }
-
-  function many_cars() {
-    var cars = ''
-    var car = '&#128664'
-    for (var i = 0; i < 95; i++) {
-      cars += (car + " ");
-    }
-    return cars; 
-  }
-  //not used currently
-  // function unknowns() {
-  //   var unknowns = '';
-  //   for (var i = 0; i < 10; i++) {
-  //     unknowns += ('?' + " ");
-  //   }
-  //   return unknowns;
-  // }
-
-</script>
-<!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
 
 </html>
