@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Your page title here :)</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="section cover-image">
+    <div class="container">
+      <div class="row">
+        <div class="one-half column title">
+          <h2>RIGHT OF WAY</h2>
+          <h2>2014 memorial</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section facts">
+    <div class="container">
+      <div class="row">
+        <div class="one-third column">
+          <h2>269 People were killed by cars in NYC in 2014</h4>
+          <h3><b>144</b> Pedestrians</h3>
+          <h3><b>20</b> Cyclists</h3>
+          <h3><b>95</b> people in cars</h3>
+          <h3><b>10</b> unknown</h3>
+          <h5>Right of Way moralizes them with a large public art installation</h5>
+        </div>
+        <div class="two-thirds column">
+          <h3 id="icons" class="icon-style"></h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  
+<script>
+  document.getElementById('icons').innerHTML = many_people() + many_bikes() + many_cars();
+
+  function many_bikes() {
+    var bikes = ''
+    var bike = '&#128690'
+    for (var i = 0; i < 20; i++) {
+      bikes += (bike + " ");
+    }
+    return bikes; 
+  }
+
+  // people include the unknowns
+  function many_people() {
+    var people = ''
+    var person = '&#128694'
+    for (var i = 0; i < 154; i++) {
+      people += (person + " ");
+    }
+    return people; 
+  }
+
+  function many_cars() {
+    var cars = ''
+    var car = '&#128664'
+    for (var i = 0; i < 95; i++) {
+      cars += (car + " ");
+    }
+    return cars; 
+  }
+  //not used currently
+  // function unknowns() {
+  //   var unknowns = '';
+  //   for (var i = 0; i < 10; i++) {
+  //     unknowns += ('?' + " ");
+  //   }
+  //   return unknowns;
+  // }
+
+</script>
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+
+</html>

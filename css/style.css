@@ -1,0 +1,22 @@
+.cover-image {
+  background-image: url('../images/sample_cover2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  background-size: 100%;
+ /*  height: 400px;*/
+}
+
+.title {
+  font-family: "Stencil";
+  color: white;
+}
+
+.icon-style {
+  font-color: black;
+  font-family: 'Segoe UI Symbol';
+}
+
+.facts {
+  margin-top: 2rem;
+}
