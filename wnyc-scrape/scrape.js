@@ -2,7 +2,7 @@ var fs = require('fs');
 var cheerio = require('cheerio');
 
 //read html file
-var wnyc_html = fs.readFileSync('wnyc_2014_deaths.html').toString();
+var wnyc_html = fs.readFileSync('deaths_captured_4_17.html').toString();
 
 //give html-string to cheerio
 var $ = cheerio.load(wnyc_html);
@@ -80,26 +80,34 @@ for (var i = 0; i < counter.length; i++) {
 var added_total_of_type_counters = ped_counter + cycle_counter + car_counter + unknownType_counter;
 
 //data as arrays
-var file = fs.createWriteStream('arrays.txt');
+var file = fs.createWriteStream('array.txt');
 
 file.on('error', function(err) { console.log(err);  });
+
 file.write('var names = [');
 names.forEach(function(value){
   file.write('"' + value + '"' + ',');
 })
-file.write('];');
-file.write('\n');
+file.write('];' + '\n');
+
 file.write('var ages = [');
 ages.forEach(function(value){
   file.write('"' + value + '"' + ',');
 })
-file.write('];');
-file.write('\n');
+file.write('];' + '\n');
+
 file.write('var dates = [');
 dates.forEach(function(value){
   file.write('"' + value + '"' + ',');
 });
-file.write('];');
+file.write('];' + '\n');
+
+file.write('var types = [')
+types.forEach(function(value){
+  file.write('"' + value + '"' + ',')
+})
+file.write('];' + '\n');
+
 file.end();
 
 if( added_total_of_type_counters === counter) {
