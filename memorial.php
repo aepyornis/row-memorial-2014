@@ -28,6 +28,7 @@ Template Name: memorial
   <link rel="stylesheet" href="http://www.rightofway.org/wp-content/themes/rightofway/2014memorial/css/normalize.css">
   <link rel="stylesheet" href="http://www.rightofway.org/wp-content/themes/rightofway/2014memorial/css/skeleton.css">
   <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+  <link href="http://www.rightofway.org/wp-content/themes/rightofway/2014memorial/css/lightbox.css" rel="stylesheet" />
   <link rel="stylesheet" href="http://www.rightofway.org/wp-content/themes/rightofway/2014memorial/css/style.css">
 
   <!-- Favicon
@@ -72,13 +73,13 @@ Template Name: memorial
     <div class="container">
       <div class="row">
         <div class="four columns">
-          <img class="u-max-full-width" src="http://www.rightofway.org/wp-content/themes/rightofway/2014memorial/images/big3/abonour_row_walloffatals03_sm.jpg"></img>
+          <a href="http://www.rightofway.org/wp-content/themes/rightofway/2014memorial/images/big3/abonour_row_walloffatals03_sm.jpg" data-lightbox="image 1"><img class="u-max-full-width" src="http://www.rightofway.org/wp-content/themes/rightofway/2014memorial/images/big3/abonour_row_walloffatals03_sm.jpg"></img></a>
         </div>
         <div class="four columns">
-          <img class="u-max-full-width" src="http://www.rightofway.org/wp-content/themes/rightofway/2014memorial/images/big3/abonour_row_walloffatals05_sm.jpg"></img>
+          <a href="http://www.rightofway.org/wp-content/themes/rightofway/2014memorial/images/big3/abonour_row_walloffatals05_sm.jpg" data-lightbox="image 2"><img class="u-max-full-width" src="http://www.rightofway.org/wp-content/themes/rightofway/2014memorial/images/big3/abonour_row_walloffatals05_sm.jpg"></img></a>
         </div>
         <div class="four columns">
-          <img class="u-max-full-width" src="http://www.rightofway.org/wp-content/themes/rightofway/2014memorial/images/big3/abonour_row_walloffatals16_sm.jpg"></img>
+          <a href="http://www.rightofway.org/wp-content/themes/rightofway/2014memorial/images/big3/abonour_row_walloffatals16_sm.jpg" data-lightbox="image 3"><img class="u-max-full-width" src="http://www.rightofway.org/wp-content/themes/rightofway/2014memorial/images/big3/abonour_row_walloffatals16_sm.jpg"></img></a>
         </div>
       </div>
       <div class ="row main-text">
@@ -92,44 +93,48 @@ Template Name: memorial
     <div class="container">
       <div class="row">
         <div class="three columns">
-          <img class="u-max-full-width" src="http://www.rightofway.org/wp-content/themes/rightofway/2014memorial/images/01.jpg"></img>
+          <a href="http://www.rightofway.org/wp-content/themes/rightofway/2014memorial/images/01.jpg" data-lightbox="images"><img class="u-max-full-width" src="http://www.rightofway.org/wp-content/themes/rightofway/2014memorial/images/01.jpg"></img></a>
         </div>
         <div class="three columns">
-          <img class="u-max-full-width" src="http://www.rightofway.org/wp-content/themes/rightofway/2014memorial/images/02.jpg"></img>
+          <a href="http://www.rightofway.org/wp-content/themes/rightofway/2014memorial/images/02.jpg" data-lightbox="images"><img class="u-max-full-width" src="http://www.rightofway.org/wp-content/themes/rightofway/2014memorial/images/02.jpg"></img></a>
         </div>
         <div class="three columns">
-          <img class="u-max-full-width" src="http://www.rightofway.org/wp-content/themes/rightofway/2014memorial/images/03.jpg"></img>
+          <a href="http://www.rightofway.org/wp-content/themes/rightofway/2014memorial/images/03.jpg" data-lightbox="images"><img class="u-max-full-width" src="http://www.rightofway.org/wp-content/themes/rightofway/2014memorial/images/03.jpg"></img></a>
         </div>
         <div class="three columns">
-          <img class="u-max-full-width" src="http://www.rightofway.org/wp-content/themes/rightofway/2014memorial/images/04.jpg"></img>
-        </div>
-      </div>
-      <div class="row">
-        <div class="three columns">
-          <img class="u-max-full-width" src="http://www.rightofway.org/wp-content/themes/rightofway/2014memorial/images/zy_1.jpg"></img>
-        </div>
-        <div class="three columns">
-          <img class="u-max-full-width" src="http://www.rightofway.org/wp-content/themes/rightofway/2014memorial/images/05.jpg"></img>
-        </div>
-        <div class="three columns">
-          <img class="u-max-full-width" src="http://www.rightofway.org/wp-content/themes/rightofway/2014memorial/images/06.jpg"></img>
-        </div>
-        <div class="three columns">
-          <img class="u-max-full-width" src="http://www.rightofway.org/wp-content/themes/rightofway/2014memorial/images/07.jpg"></img>
+         <a href="http://www.rightofway.org/wp-content/themes/rightofway/2014memorial/images/04.jpg" data-lightbox="images"><img class="u-max-full-width" src="http://www.rightofway.org/wp-content/themes/rightofway/2014memorial/images/04.jpg"></img></a>
         </div>
       </div>
       <div class="row">
         <div class="three columns">
-          <img class="u-max-full-width" src="http://www.rightofway.org/wp-content/themes/rightofway/2014memorial/images/zy_2.jpg"></img>
+          <a href="http://www.rightofway.org/wp-content/themes/rightofway/2014memorial/images/zy_1.jpg" data-lightbox="images"><img class="u-max-full-width" src="http://www.rightofway.org/wp-content/themes/rightofway/2014memorial/images/zy_1.jpg"></img></a>
         </div>
         <div class="three columns">
-          <img class="u-max-full-width" src="http://www.rightofway.org/wp-content/themes/rightofway/2014memorial/images/08.jpg"></img>
+          <a href="http://www.rightofway.org/wp-content/themes/rightofway/2014memorial/images/05.jpg" data-lightbox="images"><img class="u-max-full-width" src="http://www.rightofway.org/wp-content/themes/rightofway/2014memorial/images/05.jpg"></img></a>
         </div>
         <div class="three columns">
-          <img class="u-max-full-width" src="http://www.rightofway.org/wp-content/themes/rightofway/2014memorial/images/09.jpg"></img>
+          <a href="http://www.rightofway.org/wp-content/themes/rightofway/2014memorial/images/06.jpg" data-lightbox="images"><img class="u-max-full-width" src="http://www.rightofway.org/wp-content/themes/rightofway/2014memorial/images/06.jpg"></img></a>
         </div>
         <div class="three columns">
-          <img class="u-max-full-width" src="http://www.rightofway.org/wp-content/themes/rightofway/2014memorial/images/10.jpg"></img>
+          <a href="http://www.rightofway.org/wp-content/themes/rightofway/2014memorial/images/07.jpg" data-lightbox="images"><img class="u-max-full-width" src="http://www.rightofway.org/wp-content/themes/rightofway/2014memorial/images/07.jpg"></img></a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="three columns">
+          <a href="http://www.rightofway.org/wp-content/themes/rightofway/2014memorial/images/zy_2.jpg" data-lightbox="images"><img class="u-max-full-width" src="http://www.rightofway.org/wp-content/themes/rightofway/2014memorial/images/zy_2.jpg"></img></a>
+          
+        </div>
+        <div class="three columns">
+          <a href="http://www.rightofway.org/wp-content/themes/rightofway/2014memorial/images/08.jpg" data-lightbox="images"><img class="u-max-full-width" src="http://www.rightofway.org/wp-content/themes/rightofway/2014memorial/images/08.jpg"></img></a>
+          
+        </div>
+        <div class="three columns">
+          <a href="http://www.rightofway.org/wp-content/themes/rightofway/2014memorial/images/09.jpg" data-lightbox="images"><img class="u-max-full-width" src="http://www.rightofway.org/wp-content/themes/rightofway/2014memorial/images/09.jpg"></img></a>
+          
+        </div>
+        <div class="three columns">
+          <a href="http://www.rightofway.org/wp-content/themes/rightofway/2014memorial/images/10.jpg" data-lightbox="images"><img class="u-max-full-width" src="http://www.rightofway.org/wp-content/themes/rightofway/2014memorial/images/10.jpg"></img></a>
+          
         </div>
       </div>
     </div>
@@ -149,7 +154,8 @@ Template Name: memorial
   </div>
 </dvi>
 
-
+<script src="http://www.rightofway.org/wp-content/themes/rightofway/2014memorial/js/jquery-1.11.0.min.js"></script>
+<script src="http://www.rightofway.org/wp-content/themes/rightofway/2014memorial/js/lightbox.min.js"></script>
 <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
 <script src="http://www.rightofway.org/wp-content/themes/rightofway/2014memorial/js/deaths.js"></script>
 <script src="http://www.rightofway.org/wp-content/themes/rightofway/2014memorial/js/main.js"></script>
