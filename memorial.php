@@ -55,12 +55,12 @@ Template Name: memorial
     <div class="container">
       <div class="row">
         <div class="one-third column">
-          <h2>269 People were killed by cars in NYC in 2014</h4>
-          <h3><b>144</b> Pedestrians</h3>
-          <h3><b>20</b> Cyclists</h3>
-          <h3><b>95</b> people in cars</h3>
-          <h3><b>10</b> unknown</h3>
-          <h5>Right of Way remembers them with a large public art installation</h5>
+          <h2>269 People were killed by traffic in NYC in 2014</h4>
+          <h4><b>144</b> People walking</h4>
+          <h4><b>20</b> People riding bicycles</h4>
+          <h4><b>95</b> People in motor vehicles</h4>
+          <h4><b>10</b> Unknown </h4>
+          <h4>Right of Way remembers them with a two-block-long mural</h4>
         </div>
         <div class="two-thirds column">
           <h3 id="icons" class="icon-style"></h3>
