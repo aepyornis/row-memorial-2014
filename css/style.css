@@ -1,7 +1,8 @@
 .cover-image {
-  background-image: url('../images/sample_cover2.jpg');
+  background-image: url('../images/abonour_row_walloffatals23.JPG');
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   min-height: 400px;
   background-size: 100%;
  /*  height: 400px;*/
