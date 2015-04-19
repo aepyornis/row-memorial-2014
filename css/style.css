@@ -37,10 +37,21 @@
 
 .the-map {
   padding-top: 4rem;
-  padding-bottom: 8rem;
+  padding-bottom: 2rem;
 }
 
 
 #map {
   height: 425px;
+}
+
+.bottom-note {
+  padding-bottom: 8rem;
+}
+
+.bottom-note p {
+  line-height: 0.3;
+  text-align: center;
+  font-size: .8em;
+
 }
